@@ -13,28 +13,21 @@ from typing import Callable, List, NoReturn, Optional, Tuple, Union, Any
 WDT_RESET: int
 PWRON_RESET: int
 
+def dht_readinto(*args, **kwargs) -> Any: ...
+def enable_irq(state) -> Any:
+    """
+    Re-enable interrupt requests.
+    The *state* parameter should be the value that was returned from the most
+    recent call to the `disable_irq()` function.
+    """
+    ...
+
 def disable_irq() -> Any:
     """
     Disable interrupt requests.
     Returns the previous IRQ state which should be considered an opaque value.
     This return value should be passed to the `enable_irq()` function to restore
     interrupts to their original state, before `disable_irq()` was called.
-    """
-    ...
-
-def soft_reset() -> NoReturn:
-    """
-    Performs a soft reset of the interpreter, deleting all Python objects and
-    resetting the Python heap.  It tries to retain the method by which the user
-    is connected to the MicroPython REPL (eg serial, USB, Wifi).
-    """
-    ...
-
-def enable_irq(state) -> Any:
-    """
-    Re-enable interrupt requests.
-    The *state* parameter should be the value that was returned from the most
-    recent call to the `disable_irq()` function.
     """
     ...
 
@@ -94,6 +87,14 @@ def bootloader(value: Optional[Any] = None) -> None:
 
     Some ports support passing in an optional *value* argument which can control
     which bootloader to enter, what to pass to it, or other things.
+    """
+    ...
+
+def soft_reset() -> NoReturn:
+    """
+    Performs a soft reset of the interpreter, deleting all Python objects and
+    resetting the Python heap.  It tries to retain the method by which the user
+    is connected to the MicroPython REPL (eg serial, USB, Wifi).
     """
     ...
 
@@ -742,12 +743,18 @@ class UART:
     """
 
     INV_TX: int
+    RTS: int
     CTS: int
     INV_RX: int
-    RTS: int
     def deinit(self) -> None:
         """
         Turn off the UART bus.
+        """
+        ...
+    def sendbreak(self) -> None:
+        """
+        Send a break condition on the bus. This drives the bus low for a duration
+        longer than required for a normal transmission of a character.
         """
         ...
     def init(self, baudrate=9600, bits=8, parity=None, stop=1, *args, **kwargs) -> None:
@@ -795,12 +802,8 @@ class UART:
             flow control will be disabled. If *pins* is ``None``, no pin assignment will be made.
         """
         ...
-    def sendbreak(self) -> None:
-        """
-        Send a break condition on the bus. This drives the bus low for a duration
-        longer than required for a normal transmission of a character.
-        """
-        ...
+    def flush(self, *args, **kwargs) -> Any: ...
+    def txdone(self, *args, **kwargs) -> Any: ...
     def read(self, nbytes: Optional[Any] = None) -> bytes:
         """
         Read characters.  If ``nbytes`` is specified then read at most that many bytes,
@@ -850,7 +853,7 @@ class UART:
         Return value: the line read or ``None`` on timeout.
         """
         ...
-    def __init__(self, id, *args) -> None: ...
+    def __init__(self, id, *args, **kwargs) -> None: ...
 
 class SoftI2C:
     """

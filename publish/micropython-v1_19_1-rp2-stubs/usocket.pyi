@@ -7,17 +7,19 @@ This module provides access to the BSD socket interface.
 """
 from typing import IO, Optional, Tuple, Any
 
-SO_KEEPALIVE: int
-SOL_SOCKET: int
-SO_SNDTIMEO: int
-SO_RCVTIMEO: int
+SOCK_RAW: int
+SOCK_DGRAM: int
 SO_REUSEADDR: int
+SOCK_STREAM: int
+SOL_SOCKET: int
 AF_INET6: int
 AF_INET: int
-SOCK_STREAM: int
-SOCK_DGRAM: int
-SOCK_RAW: int
+IP_DROP_MEMBERSHIP: int
+IPPROTO_IP: int
+IP_ADD_MEMBERSHIP: int
 
+def reset(*args, **kwargs) -> Any: ...
+def print_pcbs(*args, **kwargs) -> Any: ...
 def getaddrinfo(host, port, af=0, type=0, proto=0, flags=0, /) -> Any:
     """
     Translate the host/port argument into a sequence of 5-tuples that contain all the
@@ -46,6 +48,8 @@ def getaddrinfo(host, port, af=0, type=0, proto=0, flags=0, /) -> Any:
        s.connect(socket.getaddrinfo('www.micropython.org', 80, 0, SOCK_STREAM)[0][-1])
     """
     ...
+
+def callback(*args, **kwargs) -> Any: ...
 
 class socket:
     """

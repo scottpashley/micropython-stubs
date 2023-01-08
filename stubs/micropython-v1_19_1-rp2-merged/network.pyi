@@ -34,7 +34,13 @@ For example::
 from typing import List, Optional, Tuple, Union, Any
 
 STA_IF: int
+STAT_IDLE: int
+STAT_NO_AP_FOUND: int
+STAT_WRONG_PASSWORD: int
+STAT_GOT_IP: int
 AP_IF: int
+STAT_CONNECTING: int
+STAT_CONNECT_FAIL: int
 
 def route(*args, **kwargs) -> Any: ...
 
@@ -47,9 +53,14 @@ class WLAN:
     For example, only STA interface may `WLAN.connect()` to an access point.
     """
 
-    WEP: int
-    WPA_PSK: int
-    OPEN: int
+    def isconnected(self) -> bool:
+        """
+        In case of STA mode, returns ``True`` if connected to a WiFi access
+        point and has a valid IP address.  In AP mode returns ``True`` when a
+        station is connected. Returns ``False`` otherwise.
+        """
+        ...
+    def ioctl(self, *args, **kwargs) -> Any: ...
     def ifconfig(self, configtuple: Optional[Any] = None) -> Tuple:
         """
         Get/set IP-level network interface parameters: IP address, subnet mask,
@@ -58,14 +69,6 @@ class WLAN:
         4-tuple with the required information.  For example::
 
          nic.ifconfig(('192.168.0.4', '255.255.255.0', '192.168.0.1', '8.8.8.8'))
-        """
-        ...
-    def ioctl(self, *args, **kwargs) -> Any: ...
-    def isconnected(self) -> bool:
-        """
-        In case of STA mode, returns ``True`` if connected to a WiFi access
-        point and has a valid IP address.  In AP mode returns ``True`` when a
-        station is connected. Returns ``False`` otherwise.
         """
         ...
     def scan(self) -> List[Tuple]:
@@ -96,6 +99,7 @@ class WLAN:
             * 1 -- hidden
         """
         ...
+    def send_ethernet(self, *args, **kwargs) -> Any: ...
     def status(self, param: Optional[Any] = None) -> Any:
         """
         Return the current status of the wireless connection.
@@ -112,18 +116,6 @@ class WLAN:
 
         When called with one argument *param* should be a string naming the status
         parameter to retrieve.  Supported parameters in WiFI STA mode are: ``'rssi'``.
-        """
-        ...
-    def disconnect(self) -> None:
-        """
-        Disconnect from the currently connected wireless network.
-        """
-        ...
-    def active(self, is_active: Optional[Any] = None) -> None:
-        """
-        Activate ("up") or deactivate ("down") network interface, if boolean
-        argument is passed. Otherwise, query current state if no argument is
-        provided. Most other methods require active interface.
         """
         ...
     def config(self, param) -> Any:
@@ -159,6 +151,18 @@ class WLAN:
         =============  ===========
         """
         ...
+    def active(self, is_active: Optional[Any] = None) -> None:
+        """
+        Activate ("up") or deactivate ("down") network interface, if boolean
+        argument is passed. Otherwise, query current state if no argument is
+        provided. Most other methods require active interface.
+        """
+        ...
+    def disconnect(self) -> None:
+        """
+        Disconnect from the currently connected wireless network.
+        """
+        ...
     def connect(self, ssid=None, password=None, *, bssid=None) -> None:
         """
         Connect to the specified wireless network, using the specified password.
@@ -167,4 +171,5 @@ class WLAN:
         in this case).
         """
         ...
+    def deinit(self, *args, **kwargs) -> Any: ...
     def __init__(self, interface_id) -> None: ...

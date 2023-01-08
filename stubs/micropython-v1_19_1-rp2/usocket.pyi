@@ -1,17 +1,20 @@
 from typing import Any
 
-SO_KEEPALIVE: int
-SOL_SOCKET: int
-SO_SNDTIMEO: int
-SO_RCVTIMEO: int
+SOCK_RAW: int
+SOCK_DGRAM: int
 SO_REUSEADDR: int
+SOCK_STREAM: int
+SOL_SOCKET: int
 AF_INET6: int
 AF_INET: int
-SOCK_STREAM: int
-SOCK_DGRAM: int
-SOCK_RAW: int
+IP_DROP_MEMBERSHIP: int
+IPPROTO_IP: int
+IP_ADD_MEMBERSHIP: int
 
+def reset(*args, **kwargs) -> Any: ...
+def print_pcbs(*args, **kwargs) -> Any: ...
 def getaddrinfo(*args, **kwargs) -> Any: ...
+def callback(*args, **kwargs) -> Any: ...
 
 class socket:
     def recvfrom(self, *args, **kwargs) -> Any: ...

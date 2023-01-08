@@ -43,18 +43,12 @@ class FrameBuffer:
     unexpected errors.
     """
 
-    def rect(self, x, y, w, h, c) -> Any: ...
+    def poly(self, *args, **kwargs) -> Any: ...
+    def vline(self, x, y, h, c) -> Any: ...
     def pixel(self, x, y, c: Optional[Any] = None) -> Any:
         """
         If *c* is not given, get the color value of the specified pixel.
         If *c* is given, set the specified pixel to the given color.
-        """
-        ...
-    def vline(self, x, y, h, c) -> Any: ...
-    def scroll(self, xstep, ystep) -> Any:
-        """
-        Shift the contents of the FrameBuffer by the given vector. This may
-        leave a footprint of the previous colors in the FrameBuffer.
         """
         ...
     def text(self, s, x, y, c: Optional[Any] = None) -> None:
@@ -66,9 +60,21 @@ class FrameBuffer:
 
         """
         ...
-    def fill(self, c) -> None:
+    def rect(self, x, y, w, h, c) -> Any: ...
+    def scroll(self, xstep, ystep) -> Any:
         """
-        Fill the entire FrameBuffer with the specified color.
+        Shift the contents of the FrameBuffer by the given vector. This may
+        leave a footprint of the previous colors in the FrameBuffer.
+        """
+        ...
+    def ellipse(self, *args, **kwargs) -> Any: ...
+    def line(self, x1, y1, x2, y2, c) -> None:
+        """
+        Draw a line from a set of coordinates using the given color and
+        a thickness of 1 pixel. The `line` method draws the line up to
+        a second set of coordinates whereas the `hline` and `vline`
+        methods draw horizontal and vertical lines respectively up to
+        a given length.
         """
         ...
     def blit(self, fbuf, x, y, key=-1, palette=None) -> None:
@@ -90,13 +96,10 @@ class FrameBuffer:
         color of the corresponding source pixel.
         """
         ...
-    def line(self, x1, y1, x2, y2, c) -> None:
+    def hline(self, x, y, w, c) -> Any: ...
+    def fill(self, c) -> None:
         """
-        Draw a line from a set of coordinates using the given color and
-        a thickness of 1 pixel. The `line` method draws the line up to
-        a second set of coordinates whereas the `hline` and `vline`
-        methods draw horizontal and vertical lines respectively up to
-        a given length.
+        Fill the entire FrameBuffer with the specified color.
         """
         ...
     def fill_rect(self, x, y, w, h, c) -> None:
@@ -106,5 +109,4 @@ class FrameBuffer:
         draws both the outline and interior.
         """
         ...
-    def hline(self, x, y, w, c) -> Any: ...
     def __init__(self, buffer, width, height, format, stride=-1, /) -> None: ...

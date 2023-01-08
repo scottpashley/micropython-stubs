@@ -1,0 +1,24 @@
+{
+    "name": "micropython-esp8266-stubs",
+    "mpy_version": "latest",
+    "publish": true,
+    "pkg_version": "1.20a744",
+    "path": "micropython-latest-esp8266-stubs",
+    "stub_sources": [
+        [
+            "Merged stubs",
+            "micropython-latest-esp8266-merged"
+        ],
+        [
+            "Frozen stubs",
+            "micropython-latest-frozen/esp8266/GENERIC"
+        ],
+        [
+            "Core stubs",
+            "micropython_core"
+        ]
+    ],
+    "description": "MicroPython stubs",
+    "hash": "a1ee1ab1842b812426473a06b38c8edb3fc289fc",
+    "stub_hash": "5603ccc2271c561e6f1bc0973ac1b698acdd84ff"
+}

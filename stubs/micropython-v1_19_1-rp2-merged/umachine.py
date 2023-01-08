@@ -8,7 +8,7 @@ and unrestricted access to and control of hardware blocks on a system
 malfunction, lockups, crashes of your board, and in extreme cases, hardware
 damage.
 """
-# MCU: {'ver': 'v1.19.1', 'build': '', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Arduino Nano RP2040 Connect with RP2040', 'nodename': 'rp2'}
+# MCU: {'ver': 'v1.19.1-718', 'build': '718', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Raspberry Pi Pico W with RP2040', 'nodename': 'rp2'}
 # Stubber: 1.9.11
 from typing import Callable, List, NoReturn, Optional, Tuple, Union, Any
 
@@ -16,22 +16,7 @@ WDT_RESET = 3  # type: int
 PWRON_RESET = 1  # type: int
 
 
-def disable_irq() -> Any:
-    """
-    Disable interrupt requests.
-    Returns the previous IRQ state which should be considered an opaque value.
-    This return value should be passed to the `enable_irq()` function to restore
-    interrupts to their original state, before `disable_irq()` was called.
-    """
-    ...
-
-
-def soft_reset() -> NoReturn:
-    """
-    Performs a soft reset of the interpreter, deleting all Python objects and
-    resetting the Python heap.  It tries to retain the method by which the user
-    is connected to the MicroPython REPL (eg serial, USB, Wifi).
-    """
+def dht_readinto(*args, **kwargs) -> Any:
     ...
 
 
@@ -40,6 +25,16 @@ def enable_irq(state) -> Any:
     Re-enable interrupt requests.
     The *state* parameter should be the value that was returned from the most
     recent call to the `disable_irq()` function.
+    """
+    ...
+
+
+def disable_irq() -> Any:
+    """
+    Disable interrupt requests.
+    Returns the previous IRQ state which should be considered an opaque value.
+    This return value should be passed to the `enable_irq()` function to restore
+    interrupts to their original state, before `disable_irq()` was called.
     """
     ...
 
@@ -102,6 +97,15 @@ def bootloader(value: Optional[Any] = None) -> None:
 
     Some ports support passing in an optional *value* argument which can control
     which bootloader to enter, what to pass to it, or other things.
+    """
+    ...
+
+
+def soft_reset() -> NoReturn:
+    """
+    Performs a soft reset of the interpreter, deleting all Python objects and
+    resetting the Python heap.  It tries to retain the method by which the user
+    is connected to the MicroPython REPL (eg serial, USB, Wifi).
     """
     ...
 
@@ -828,13 +832,20 @@ class UART:
     """
 
     INV_TX = 1  # type: int
+    RTS = 2  # type: int
     CTS = 1  # type: int
     INV_RX = 2  # type: int
-    RTS = 2  # type: int
 
     def deinit(self) -> None:
         """
         Turn off the UART bus.
+        """
+        ...
+
+    def sendbreak(self) -> None:
+        """
+        Send a break condition on the bus. This drives the bus low for a duration
+        longer than required for a normal transmission of a character.
         """
         ...
 
@@ -884,11 +895,10 @@ class UART:
         """
         ...
 
-    def sendbreak(self) -> None:
-        """
-        Send a break condition on the bus. This drives the bus low for a duration
-        longer than required for a normal transmission of a character.
-        """
+    def flush(self, *args, **kwargs) -> Any:
+        ...
+
+    def txdone(self, *args, **kwargs) -> Any:
         ...
 
     def read(self, nbytes: Optional[Any] = None) -> bytes:
@@ -945,7 +955,7 @@ class UART:
         """
         ...
 
-    def __init__(self, id, *args) -> None:
+    def __init__(self, id, *args, **kwargs) -> None:
         ...
 
 

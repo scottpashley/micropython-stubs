@@ -4,7 +4,7 @@ Frame buffer manipulation. See: https://docs.micropython.org/en/v1.19.1/library/
 This module provides a general frame buffer which can be used to create
 bitmap images, which can then be sent to a display.
 """
-# MCU: {'ver': 'v1.19.1', 'build': '', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Arduino Nano RP2040 Connect with RP2040', 'nodename': 'rp2'}
+# MCU: {'ver': 'v1.19.1-718', 'build': '718', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Raspberry Pi Pico W with RP2040', 'nodename': 'rp2'}
 # Stubber: 1.9.11
 from typing import Optional, Any
 
@@ -48,23 +48,16 @@ class FrameBuffer:
     unexpected errors.
     """
 
-    def rect(self, x, y, w, h, c) -> Any:
+    def poly(self, *args, **kwargs) -> Any:
+        ...
+
+    def vline(self, x, y, h, c) -> Any:
         ...
 
     def pixel(self, x, y, c: Optional[Any] = None) -> Any:
         """
         If *c* is not given, get the color value of the specified pixel.
         If *c* is given, set the specified pixel to the given color.
-        """
-        ...
-
-    def vline(self, x, y, h, c) -> Any:
-        ...
-
-    def scroll(self, xstep, ystep) -> Any:
-        """
-        Shift the contents of the FrameBuffer by the given vector. This may
-        leave a footprint of the previous colors in the FrameBuffer.
         """
         ...
 
@@ -78,9 +71,26 @@ class FrameBuffer:
         """
         ...
 
-    def fill(self, c) -> None:
+    def rect(self, x, y, w, h, c) -> Any:
+        ...
+
+    def scroll(self, xstep, ystep) -> Any:
         """
-        Fill the entire FrameBuffer with the specified color.
+        Shift the contents of the FrameBuffer by the given vector. This may
+        leave a footprint of the previous colors in the FrameBuffer.
+        """
+        ...
+
+    def ellipse(self, *args, **kwargs) -> Any:
+        ...
+
+    def line(self, x1, y1, x2, y2, c) -> None:
+        """
+        Draw a line from a set of coordinates using the given color and
+        a thickness of 1 pixel. The `line` method draws the line up to
+        a second set of coordinates whereas the `hline` and `vline`
+        methods draw horizontal and vertical lines respectively up to
+        a given length.
         """
         ...
 
@@ -104,13 +114,12 @@ class FrameBuffer:
         """
         ...
 
-    def line(self, x1, y1, x2, y2, c) -> None:
+    def hline(self, x, y, w, c) -> Any:
+        ...
+
+    def fill(self, c) -> None:
         """
-        Draw a line from a set of coordinates using the given color and
-        a thickness of 1 pixel. The `line` method draws the line up to
-        a second set of coordinates whereas the `hline` and `vline`
-        methods draw horizontal and vertical lines respectively up to
-        a given length.
+        Fill the entire FrameBuffer with the specified color.
         """
         ...
 
@@ -120,9 +129,6 @@ class FrameBuffer:
         method draws only a 1 pixel outline whereas the `fill_rect` method
         draws both the outline and interior.
         """
-        ...
-
-    def hline(self, x, y, w, c) -> Any:
         ...
 
     def __init__(self, buffer, width, height, format, stride=-1, /) -> None:

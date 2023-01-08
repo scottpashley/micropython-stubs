@@ -18,7 +18,7 @@ for example code.
 # + module: rp2.Flash.rst
 # + module: rp2.PIO.rst
 # + module: rp2.StateMachine.rst
-from typing import IO, Any, Callable, Coroutine, Dict, Generator, Iterator, List, NoReturn, Optional, Tuple, Union
+from typing import Any, Optional
 
 class PIOASMError(Exception):
     """
@@ -116,7 +116,7 @@ class PIO:
         It is not an error to remove a program which has already been removed.
         """
         ...
-    def state_machine(self, id, program, *args: Optional[Any]) -> Any:
+    def state_machine(self, id, program, *args, **kwargs: Optional[Any]) -> Any:
         """
         Gets the state machine numbered *id*. On the RP2040, each PIO instance has
         four state machines, numbered 0 to 3.
@@ -149,7 +149,7 @@ class StateMachine:
 
     """
 
-    def __init__(self, id, program, *args: Optional[Any]) -> None: ...
+    def __init__(self, id, program, *args, **kwargs: Optional[Any]) -> None: ...
     def init(
         self,
         program,

@@ -29,11 +29,11 @@ For an overview of  Micropython Stubs please see: https://micropython-stubs.read
 Included stubs:
 * Merged stubs from `stubs/micropython-v1_19_1-rp2-merged`
 * Frozen stubs from `stubs/micropython-v1_19_1-frozen/rp2/GENERIC`
-* Core stubs from `stubs/cpython_core-pycopy`
+* Core stubs from `stubs/micropython_core`
 
 
 origin | Family | Port | Board | Version
 -------|--------|------|-------|--------
-Firmware | micropython | rp2 | Arduino Nano RP2040 Connect with RP2040 | v1.19.1 
+Firmware | micropython | rp2 | Raspberry Pi Pico W with RP2040 | v1.19.1 
 Documentation | micropython | - | - | v1.19.1 
 Core | micropython | rp2 | - | v1.19.1 

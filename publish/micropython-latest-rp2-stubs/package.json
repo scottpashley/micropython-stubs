@@ -1,0 +1,24 @@
+{
+    "name": "micropython-rp2-stubs",
+    "mpy_version": "latest",
+    "publish": true,
+    "pkg_version": "1.20a744",
+    "path": "micropython-latest-rp2-stubs",
+    "stub_sources": [
+        [
+            "Merged stubs",
+            "micropython-latest-rp2-merged"
+        ],
+        [
+            "Frozen stubs",
+            "micropython-latest-frozen/rp2/GENERIC"
+        ],
+        [
+            "Core stubs",
+            "micropython_core"
+        ]
+    ],
+    "description": "MicroPython stubs",
+    "hash": "f52ed4aefa60e93f1f2ec1d14ed2261e12dfe264",
+    "stub_hash": "e4df3bcbf8240063087390b1107f977047e61039"
+}

@@ -2,7 +2,7 @@
     "name": "micropython-rp2-stubs",
     "mpy_version": "1.19.1",
     "publish": true,
-    "pkg_version": "1.19.1.post8",
+    "pkg_version": "1.19.1.post6",
     "path": "micropython-v1_19_1-rp2-stubs",
     "stub_sources": [
         [
@@ -15,10 +15,10 @@
         ],
         [
             "Core stubs",
-            "cpython_core-pycopy"
+            "micropython_core"
         ]
     ],
     "description": "MicroPython stubs",
-    "hash": "db2d94a8a994fe44a60e1bc00161d83fd1dce490",
-    "stub_hash": "2dbe82e5d5045f12ae549670f7d073e68f940af1"
+    "hash": "0d798f5afe4bc98a19b136922823a98605bfd237",
+    "stub_hash": "c44e09a77906fe88219fcf85a27d42537efdae8e"
 }

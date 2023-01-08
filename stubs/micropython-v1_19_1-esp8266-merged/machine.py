@@ -867,7 +867,7 @@ class UART:
         """
         ...
 
-    def __init__(self, id, *args) -> None:
+    def __init__(self, id, *args, **kwargs) -> None:
         ...
 
 

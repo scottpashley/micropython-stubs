@@ -1,0 +1,24 @@
+{
+    "name": "micropython-rp2-arduino_nano_rp2040_connect-stubs",
+    "mpy_version": "latest",
+    "publish": true,
+    "pkg_version": "1.20a744",
+    "path": "micropython-latest-rp2-arduino_nano_rp2040_connect-stubs",
+    "stub_sources": [
+        [
+            "Merged stubs",
+            "micropython-latest-rp2-ARDUINO_NANO_RP2040_CONNECT-merged"
+        ],
+        [
+            "Frozen stubs",
+            "micropython-latest-frozen/rp2/ARDUINO_NANO_RP2040_CONNECT"
+        ],
+        [
+            "Core stubs",
+            "cpython_core-pycopy"
+        ]
+    ],
+    "description": "MicroPython stubs",
+    "hash": "67e2147a5551843f4748b79fd47ffe885b9df1d7",
+    "stub_hash": "011e125a6a81ffbdf2acf58494814d4f0bcf74c5"
+}

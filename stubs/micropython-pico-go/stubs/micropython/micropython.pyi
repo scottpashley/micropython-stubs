@@ -2,9 +2,7 @@
 
 from typing import Any, overload, Callable, TypeVar
 
-
-_T = TypeVar('_T')
-
+_T = TypeVar("_T")
 
 def const(expr: Any) -> Any:
     """Used to declare that the expression is a constant so that the compile can
@@ -27,7 +25,6 @@ def const(expr: Any) -> Any:
     """
     ...
 
-
 @overload
 def opt_level() -> int:
     """If *level* is given then this function sets the optimisation level for subsequent
@@ -36,12 +33,8 @@ def opt_level() -> int:
     """
     ...
 
-
 @overload
-def opt_level(level: int) -> None:
-    ...
-
-
+def opt_level(level: int) -> None: ...
 def alloc_emergency_exception_buf(size: int) -> None:
     """Allocate *size* bytes of RAM for the emergency exception buffer (a good
     size is around 100 bytes).  The buffer is used to create exceptions in cases
@@ -54,7 +47,6 @@ def alloc_emergency_exception_buf(size: int) -> None:
     """
     ...
 
-
 @overload
 def mem_info() -> None:
     """Print information about currently used memory.  If the *verbose* argument
@@ -66,12 +58,8 @@ def mem_info() -> None:
     """
     ...
 
-
 @overload
-def mem_info(verbose: Any) -> None:
-    ...
-
-
+def mem_info(verbose: Any) -> None: ...
 @overload
 def qstr_info() -> None:
     """Print information about currently interned strings.  If the *verbose*
@@ -83,19 +71,14 @@ def qstr_info() -> None:
     """
     ...
 
-
 @overload
-def qstr_info(verbose) -> None:
-    ...
-
-
+def qstr_info(verbose) -> None: ...
 def stack_use() -> int:
     """Return an integer representing the current amount of stack that is being
     used.  The absolute value of this is not particularly useful, rather it
     should be used to compute differences in stack usage at different points.
     """
     ...
-
 
 def heap_lock() -> None:
     """Lock the heap.  When locked no memory allocation can occur and a
@@ -107,8 +90,6 @@ def heap_lock() -> None:
     """
     ...
 
-
-
 def heap_unlock() -> None:
     """Unlock the heap.  When locked no memory allocation can occur and a
     `MemoryError` will be raised if any heap allocation is attempted.
@@ -118,8 +99,6 @@ def heap_unlock() -> None:
     called the same number of times to make the heap available again.
     """
     ...
-
-
 
 def kbd_intr(chr: int) -> None:
     """Set the character that will raise a `KeyboardInterrupt` exception.  By
@@ -132,7 +111,6 @@ def kbd_intr(chr: int) -> None:
     that stream is used for other purposes.
     """
     ...
-
 
 def schedule(func: Callable[[_T], Any], arg: _T) -> None:
     """Schedule the function *func* to be executed "very soon".  The function

@@ -5,20 +5,28 @@ socket module. See: https://docs.micropython.org/en/v1.19.1/library/socket.html
 
 This module provides access to the BSD socket interface.
 """
-# MCU: {'ver': 'v1.19.1', 'build': '', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Arduino Nano RP2040 Connect with RP2040', 'nodename': 'rp2'}
+# MCU: {'ver': 'v1.19.1-718', 'build': '718', 'sysname': 'rp2', 'platform': 'rp2', 'version': '1.19.1', 'release': '1.19.1', 'port': 'rp2', 'family': 'micropython', 'name': 'micropython', 'machine': 'Raspberry Pi Pico W with RP2040', 'nodename': 'rp2'}
 # Stubber: 1.9.11
 from typing import IO, Optional, Tuple, Any
 
-SO_KEEPALIVE = 8  # type: int
-SOL_SOCKET = 4095  # type: int
-SO_SNDTIMEO = 4101  # type: int
-SO_RCVTIMEO = 4102  # type: int
+SOCK_RAW = 3  # type: int
+SOCK_DGRAM = 2  # type: int
 SO_REUSEADDR = 4  # type: int
+SOCK_STREAM = 1  # type: int
+SOL_SOCKET = 1  # type: int
 AF_INET6 = 10  # type: int
 AF_INET = 2  # type: int
-SOCK_STREAM = 1  # type: int
-SOCK_DGRAM = 2  # type: int
-SOCK_RAW = 3  # type: int
+IP_DROP_MEMBERSHIP = 1025  # type: int
+IPPROTO_IP = 0  # type: int
+IP_ADD_MEMBERSHIP = 1024  # type: int
+
+
+def reset(*args, **kwargs) -> Any:
+    ...
+
+
+def print_pcbs(*args, **kwargs) -> Any:
+    ...
 
 
 def getaddrinfo(host, port, af=0, type=0, proto=0, flags=0, /) -> Any:
@@ -48,6 +56,10 @@ def getaddrinfo(host, port, af=0, type=0, proto=0, flags=0, /) -> Any:
        # stream operation.
        s.connect(socket.getaddrinfo('www.micropython.org', 80, 0, SOCK_STREAM)[0][-1])
     """
+    ...
+
+
+def callback(*args, **kwargs) -> Any:
     ...
 
 

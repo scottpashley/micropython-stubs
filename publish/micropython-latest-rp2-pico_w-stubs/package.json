@@ -1,0 +1,24 @@
+{
+    "name": "micropython-rp2-pico_w-stubs",
+    "mpy_version": "latest",
+    "publish": true,
+    "pkg_version": "1.20a744",
+    "path": "micropython-latest-rp2-pico_w-stubs",
+    "stub_sources": [
+        [
+            "Merged stubs",
+            "micropython-latest-rp2-PICO_W-merged"
+        ],
+        [
+            "Frozen stubs",
+            "micropython-latest-frozen/rp2/PICO_W"
+        ],
+        [
+            "Core stubs",
+            "micropython_core"
+        ]
+    ],
+    "description": "MicroPython stubs",
+    "hash": "3f3541580c6f92c57cffe133428525e8f88208d8",
+    "stub_hash": "30c79231a3f7531aaf902297f44e4d6300f2ee62"
+}
