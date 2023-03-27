@@ -1,0 +1,2377 @@
+[
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_thread"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_uasyncio"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "apa106"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "btree"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "cmath"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "esp"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "esp32"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "flashbdev"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "inisetup"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "io"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "mip/__init__"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ntptime"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "platform"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ssl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubluetooth"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucryptolib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/__init__"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/robust"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/simple"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uplatform"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "upysh"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urequests"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ussl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utimeq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uwebsocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "webrepl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "webrepl_setup"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "zlib"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "apa102"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "btree"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "esp"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "flashbdev"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "inisetup"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "lwip"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "mip/__init__"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ntptime"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "port_diag"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ssd1306"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ssl"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucryptolib"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/__init__"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/robust"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umqtt/simple"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "upysh"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urequest"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urequests"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urllib/urequest"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ussl"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utimeq"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uwebsocket"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "webrepl"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "webrepl_setup"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-esp8266-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "zlib"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_boot_fat"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_rp2"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_thread"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_uasyncio"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/__init__"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/central"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/client"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/core"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/device"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/l2cap"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/peripheral"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "aioble/server"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "cmath"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "lsm6dsox"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "rp2"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubluetooth"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucryptolib"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uwebsocket"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-rp2-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "zlib"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "_uasyncio"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "cmath"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "lcd160cr"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "platform"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "pyb"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "stm"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uplatform"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "utimeq"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-stm32-stubs",
+        "version": "1.20.0a859",
+        "mod_name": "zlib"
+    },
+    {
+        "package": "micropython-stdlib-stubs",
+        "version": "0.9.0",
+        "mod_name": "stdlib/builtins"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "apa106"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "flashbdev"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "inisetup"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "ntptime"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "upip"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "upip_utarfile"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "webrepl"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "webrepl_setup"
+    },
+    {
+        "package": "micropython-esp32-s3-stubs",
+        "version": "1.19.1.post1",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "_thread"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "_uasyncio"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "apa106"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "btree"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "cmath"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "esp"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "esp32"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "flashbdev"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "inisetup"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "io"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ntptime"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "platform"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ssl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ubluetooth"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ucryptolib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "umqtt/__init__"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "umqtt/robust"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "umqtt/simple"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "upip"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "upip_utarfile"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uplatform"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "urequests"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ussl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "utimeq"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uwebsocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "webrepl"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "webrepl_setup"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "websocket"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-esp32-stubs",
+        "version": "1.19.1.post13",
+        "mod_name": "zlib"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "_boot"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "_onewire"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "_thread"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "_uasyncio"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "apa106"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "array"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "binascii"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "btree"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "cmath"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "dht"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "dotstar"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ds18x20"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "errno"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "esp"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "esp32"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "flashbdev"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "framebuf"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "gc"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "hashlib"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "heapq"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "inisetup"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "io"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "json"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "machine"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "math"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "micropython"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "neopixel"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "network"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ntptime"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "onewire"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "os"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "platform"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "random"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "select"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "socket"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ssl"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "struct"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "sys"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "time"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "tinypico"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uarray"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/__init__"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/core"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/event"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/funcs"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/lock"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/stream"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uasyncio/task"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ubinascii"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ubluetooth"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ucollections"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ucryptolib"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uctypes"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uerrno"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uhashlib"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uheapq"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uio"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ujson"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "umachine"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "umqtt/__init__"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "umqtt/robust"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "umqtt/simple"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uos"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "upip"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "upip_utarfile"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uplatform"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "urandom"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ure"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "urequests"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uselect"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "usocket"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ussl"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "ustruct"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "usys"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "utime"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "utimeq"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uwebsocket"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "uzlib"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "webrepl"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "webrepl_setup"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "websocket"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "websocket_helper"
+    },
+    {
+        "package": "micropython-esp32-um_tinypico-stubs",
+        "version": "1.19.1.post7",
+        "mod_name": "zlib"
+    }
+]
