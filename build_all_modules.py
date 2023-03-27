@@ -7,6 +7,9 @@ import json
 import os
 import sys
 from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+from packaging.version import Version
 
 try:
     import tomllib  # type: ignore
@@ -14,47 +17,60 @@ except ModuleNotFoundError:
     import tomli as tomllib  # type: ignore
 
 
-def mod_record(pkg_path:Path, mod_name: str, mod_type: str = "") -> tuple:
-    
-    
-    return (pkg_name, pkg_version, mod_name, mod_type)
 
 def main(output_file="all_modules.json", input_dir="publish"):
     all_modules = []
     for pkg_path in Path(input_dir).rglob("pyproject.toml"):
-        pkg_name = pkg_path.parts[-2]
-        # pkg_version = pkg_name.split('-')[1] if '-' in pkg_name else "0.0.0"
+        if "stdlib" in str(pkg_path):
+            continue
         try:
-            with open(pkg_path, 'rb') as f:
-                # read modules from pyproject.toml
-                pyproject = tomllib.load(f)
-                pkg_version = pyproject["tool"]["poetry"]["version"]
+            add_package(pkg_path,all_modules)
 
-                familiy = port = board = ""
-                modules = pyproject["tool"]["poetry"]["packages"]
-                try:
-                    familiy = pyproject["tool"]["poetry"]["name"].split("-")[0]
-                    port = pyproject["tool"]["poetry"]["name"].split("-")[1]
-                    board = pyproject["tool"]["poetry"]["name"].split("-")[2] 
-                except (KeyError, IndexError):
-                    pass
 
-                for mod in modules:
-                    # get module name
-                    mod_name  = mod["include"].split(".")[0]
-                    row = {
-                            "mod_name": mod_name,
-                            "family": familiy,
-                            "port": port,
-                            "board": board,
-                            "package":  pyproject["tool"]["poetry"]["name"], 
-                            "version": pkg_version,
-                    }
-                    all_modules.append(row)
+
         except KeyError as e:
             continue
     with open("all_modules.json", "w") as f:
         json.dump(all_modules, f, indent=4)
+
+def add_package(pkg_path:Path, all_modules, port="", board=""):
+    with open(pkg_path, 'rb') as f:
+        pyproject = tomllib.load(f)
+        pkg_name = pyproject["tool"]["poetry"]["name"]
+        pkg_version = pyproject["tool"]["poetry"]["version"]
+        mpy_version = Version(pkg_version).base_version
+        modules = pyproject["tool"]["poetry"]["packages"]
+        familiy =""
+        try:
+            familiy = pyproject["tool"]["poetry"]["name"].split("-")[0]
+            port = port or pyproject["tool"]["poetry"]["name"].split("-")[1]
+            board = board or pyproject["tool"]["poetry"]["name"].split("-")[2] 
+        except (KeyError, IndexError):
+            pass
+        if board == "stubs":
+            board = "GENERIC"
+        for mod in modules:
+                    # get module name
+            mod_name  = mod["include"].split(".")[0]
+            if mod_name.startswith("stdlib/"):
+                mod_name = mod_name.split("/")[1]
+            row = {
+                            "family": familiy,
+                            "version": mpy_version,
+                            "mod_name": mod_name,
+                            "port": port,
+                            "board": board,
+                            "package":  pkg_name, 
+                            "pkg_version": pkg_version,
+                    }
+            all_modules.append(row)
+        # add stdlib modules if they are included in the pyproject.toml
+        dependencies = pyproject["tool"]["poetry"]["dependencies"]
+        for dep in dependencies:
+            if dep.startswith("micropython-"):
+                dep_pkg_path = pkg_path.parent.parent/ dep / "pyproject.toml"
+                # add stdlib modules for this port & board
+                add_package(dep_pkg_path,all_modules, port , board)
 
 if __name__ == "__main__":
     main()
