@@ -30,14 +30,25 @@ def main(output_file="all_modules.json", input_dir="publish"):
                 pyproject = tomllib.load(f)
                 pkg_version = pyproject["tool"]["poetry"]["version"]
 
+                familiy = port = board = ""
                 modules = pyproject["tool"]["poetry"]["packages"]
+                try:
+                    familiy = pyproject["tool"]["poetry"]["name"].split("-")[0]
+                    port = pyproject["tool"]["poetry"]["name"].split("-")[1]
+                    board = pyproject["tool"]["poetry"]["name"].split("-")[2] 
+                except (KeyError, IndexError):
+                    pass
 
                 for mod in modules:
                     # get module name
                     mod_name  = mod["include"].split(".")[0]
-                    row = {"package":  pyproject["tool"]["poetry"]["name"], 
-                            "version": pkg_version,
+                    row = {
                             "mod_name": mod_name,
+                            "family": familiy,
+                            "port": port,
+                            "board": board,
+                            "package":  pyproject["tool"]["poetry"]["name"], 
+                            "version": pkg_version,
                     }
                     all_modules.append(row)
         except KeyError as e:
