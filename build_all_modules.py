@@ -1,6 +1,8 @@
 """
 Creates a all_modules.json file containing a list of all modules across all micropython boards and ports
-this is build by running this script from the root of the micropython-stubs repository and it parses the  modules.json files of all the published packages in the repository
+this is build by running this script from the root of the micropython-stubs repository
+- it parses the  modules.json files of all the published packages in the repository
+  Therefore the package builds should be run before this script is run
 """
 
 import json
@@ -16,6 +18,7 @@ try:
 except ModuleNotFoundError:
     import tomli as tomllib  # type: ignore
 
+ADD_STDLIB = False
 
 
 def main(output_file="all_modules.json", input_dir="publish"):
@@ -65,13 +68,14 @@ def add_package(pkg_path:Path, all_modules, port="", board="", pkg_version=""):
                             "pkg_version": pkg_version,
                     }
             all_modules.append(row)
-        # add stdlib modules if they are included in the pyproject.toml
-        dependencies = pyproject["tool"]["poetry"]["dependencies"]
-        for dep in dependencies:
-            if dep.startswith("micropython-"):
-                dep_pkg_path = pkg_path.parent.parent/ dep / "pyproject.toml"
-                # add stdlib modules for this port & board
-                add_package(dep_pkg_path,all_modules, port , board, pkg_version)
+        if ADD_STDLIB:
+            # add stdlib modules if they are included in the pyproject.toml
+            dependencies = pyproject["tool"]["poetry"]["dependencies"]
+            for dep in dependencies:
+                if dep.startswith("micropython-"):
+                    dep_pkg_path = pkg_path.parent.parent/ dep / "pyproject.toml"
+                    # add stdlib modules for this port & board
+                    add_package(dep_pkg_path,all_modules, port , board, pkg_version)
 
 if __name__ == "__main__":
     main()
