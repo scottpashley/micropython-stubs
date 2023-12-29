@@ -14,9 +14,7 @@ required for this module.
 
 # source version: v1_19_1
 # origin module:: repos/micropython/docs/library/cmath.rst
-from typing import (
-    Tuple,
-)
+from typing import Tuple
 from _typeshed import Incomplete
 
 e: float

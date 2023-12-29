@@ -8,16 +8,7 @@ MicroPython module: https://docs.micropython.org/en/v1.21.0/library/aioespnow.ht
 # origin module:: repos/micropython/docs/library/espnow.rst
 # source version: v1_21_0
 # origin module:: repos/micropython/docs/library/espnow.rst
-from typing import (
-    Any,
-    Dict,
-    Iterator,
-    List,
-    Optional,
-    Tuple,
-    Union,
-    Iterator,
-)
+from typing import Any, Dict, Iterator, List, Optional, Tuple, Union
 from _typeshed import Incomplete
 
 MAX_DATA_LEN: Incomplete = 250

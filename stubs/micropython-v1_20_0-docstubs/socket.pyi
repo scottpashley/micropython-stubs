@@ -63,12 +63,7 @@ Tuple address format for ``socket`` module:
 
 # source version: v1_20_0
 # origin module:: repos/micropython/docs/library/socket.rst
-from typing import (
-    IO,
-    Any,
-    Optional,
-    Tuple,
-)
+from typing import IO, Any, Optional, Tuple
 from _typeshed import Incomplete
 from stdlib.socket import *  # type: ignore
 

@@ -9,10 +9,7 @@ WiPy, such as the heartbeat LED.
 
 # source version: v1_20_0
 # origin module:: repos/micropython/docs/library/wipy.rst
-from typing import (
-    Any,
-    Optional,
-)
+from typing import Any, Optional
 from _typeshed import Incomplete
 
 def heartbeat(enable: Optional[Any] = None) -> bool:

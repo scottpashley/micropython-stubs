@@ -10,10 +10,7 @@ ports.
 
 # source version: v1_20_0
 # origin module:: repos/micropython/docs/library/esp.rst
-from typing import (
-    Any,
-    Optional,
-)
+from typing import Any, Optional
 from _typeshed import Incomplete
 
 def sleep_type(sleep_type: Optional[Any] = None) -> Incomplete:

@@ -12,9 +12,7 @@ facilities for network sockets, both client-side and server-side.
 
 # source version: v1_20_0
 # origin module:: repos/micropython/docs/library/ssl.rst
-from typing import (
-    IO,
-)
+from typing import IO
 from _typeshed import Incomplete
 from stdlib.ssl import *  # type: ignore
 

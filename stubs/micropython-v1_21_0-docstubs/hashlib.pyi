@@ -26,10 +26,7 @@ be implemented:
 
 # source version: v1_21_0
 # origin module:: repos/micropython/docs/library/hashlib.rst
-from typing import (
-    Any,
-    Optional,
-)
+from typing import Any, Optional
 from _typeshed import Incomplete
 
 class sha256:

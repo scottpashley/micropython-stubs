@@ -3,7 +3,7 @@
 param(
     [string]$port = "auto",
     [string]$board = "auto",
-    [string[]]$version = @("latest","v1.21.0", "v1.20.0", "v1.19.1" ),
+    [string[]]$version = @("v1.22.0","v1.21.0", "v1.20.0", "v1.19.1" ), #"latest",
     [switch]$force
 )
 # update the stubs (local ) do not push updates

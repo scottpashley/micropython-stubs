@@ -18,9 +18,7 @@ Difference to CPython
 
 # source version: v1_19_1
 # origin module:: repos/micropython/docs/library/struct.rst
-from typing import (
-    Tuple,
-)
+from typing import Tuple
 from _typeshed import Incomplete
 
 def calcsize(fmt) -> int:
