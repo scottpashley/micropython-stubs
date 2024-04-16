@@ -30,7 +30,10 @@ For example::
     s = socket.socket()
     s.connect(addr)
     s.send(b'GET / HTTP/1.1
+
 Host: micropython.org
+
+
 
 ')
     data = s.recv(1000)
@@ -40,7 +43,7 @@ Host: micropython.org
 Module: 'network' on micropython-v1.22.2-esp32-ESP32_GENERIC
 """
 # MCU: {'version': '1.22.2', 'mpy': 'v6.2', 'port': 'esp32', 'board': 'ESP32_GENERIC', 'family': 'micropython', 'build': '', 'arch': 'xtensawin', 'ver': '1.22.2', 'cpu': 'ESP32'}
-# Stubber: v1.17.3
+# Stubber: v1.17.6
 from __future__ import annotations
 from _typeshed import Incomplete
 from typing import Any, List, Optional, Tuple, Union
