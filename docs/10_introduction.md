@@ -41,7 +41,7 @@ If you:
 - Add some basic configuration to your IDE
 - Use static type checking in your development process
 
-Y=ou can benefit from:
+You can benefit from:
 
 - MicroPython specific auto completion, of arguments and things like board specific Pin names
 - Tooltips with documentation of the MicroPython stdlib and included modules , specific to you port and board
